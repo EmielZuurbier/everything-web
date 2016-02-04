@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <title>Emiel Zuurbier</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Emiel Zuurbier">
+        <meta name="description" content="The creations of Emiel">
+        <meta name="keywords" content="portfolio, emiel, zuurbier, cmd, hva">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style/style.css">
+        
+        <script type="text/javascript" src="app/bower_components/bower-angularjs/angular.min.js"></script>
+        <script type="text/javascript" src="app/bower_components/bower-angularjs/angular-route.min.js"></script>
+        <script type="text/javascript" src="app/bower_components/bower-angularjs/angular-animate.min.js"></script>
+    </head>
+    <body>
+        
+        <header ng-class="{'close': close}">
+<!--            <h1>Emiel<br> Zuurbier</h1>-->
+            <nav>
+                <ul>
+                    <li><a href="#/">Home</a></li>
+                    <li><a href="#/">Projects</a></li>
+                    <li><a href="#/">Biography</a></li>
+                    <li><a href="#/">Contact</a></li>
+                </ul>
+            </nav>
+<!--            <p>Lorizzle dolor sit amet, check out this adipiscing elit. I saw beyonces tizzles and my pizzle went crizzle sapizzle velizzle, rizzle volutpizzle, suscipizzle quis, fo shizzle vizzle, izzle. Pellentesque uhuh ... yih! fo shizzle my nizzle. Sed erizzle. izzle dolor dapibus turpis tempus dope.</p>-->
+        </header>
+        <main ng-view></main>
+    
+    </body>
+    
+    <script type="text/javascript" src="script/module.js"></script>
+<!--    <script type="text/javascript" src="script/services/service.js"></script>-->
+    <script type="text/javascript" src="script/controllers/controller.js"></script>
+    <script type="text/javascript" src="script/directives/directive.js"></script>
+</html>
